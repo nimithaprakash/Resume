@@ -1,0 +1,79 @@
+#hero{
+    background-color:#C8AAAA;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#hero h1{
+    color:#FFDAB3 !important; 
+    font-family: "Lavishly Yours", serif;
+    font-size: 100px;
+}
+#hero p{
+    color:#FFDAB3 !important; 
+    font-family: "Delius Swash Caps", serif;
+    font-size: 30px;
+
+}
+#hero1 img{
+    border-radius: 50%;
+}
+#hero1 h1{
+    color: #9F8383 !important;
+    font-family: "Lavishly Yours", serif;
+    font-size: 80px;
+}
+#hero1 p{
+    color:#574964 !important;
+    font-weight:bolder;
+}
+#body h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:  #9F8383 !important;
+    font-family: "Delius Swash Caps", serif;
+    
+}
+.parent{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+.coding-img img,
+.teacher-img img {
+  margin-right: 20px; /* Adds space to the right of images */
+}
+
+.coding-para,
+.teacher-para {
+  color:#574964 !important;
+  margin-left: 20px; /* Adds space to the left of text */
+}
+#qualification h2,
+#projects h2 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:  #9F8383 !important;
+    font-family: "Delius Swash Caps", serif;
+    gap: 50px;
+}
+.quali h2 , .container h2, {
+    position: relative;
+    top: 60px; /* Adjust this value as needed */
+    
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    gap:24px;
+    position: relative;
+    top: 150px;
+}
